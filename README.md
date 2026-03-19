@@ -11,7 +11,7 @@
 npm start
 ```
 
-Откройте `http://localhost:3000`.
+Для меня `http://localhost:3000`.
 
 ## Docker
 
