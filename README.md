@@ -50,8 +50,7 @@ portfolio/
 │   │   ├── css/        # Стили
 │   │   ├── js/         # JavaScript
 │   │   └── img/        # Изображения
-│   ├── *.html          # Страницы сайта
-│   └── sitemap.xml     # Карта сайта
+│   └── *.html          # Страницы сайта
 ├── server.js           # Node.js сервер для разработки
 ├── package.json        # Конфигурация проекта
 └── README.md           # Документация
