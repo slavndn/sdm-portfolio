@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Главная — Портфолио разработчика</title>
+    <meta name="description" content="Портфолио Даниила Славного — студента РГПУ им. Герцена, backend-разработчика. Учебные дисциплины, выполненные задания, навыки Node.js, Express.js, REST API, базы данных." />
+    <link rel="icon" href="/assets/img/favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="/assets/css/styles.css" />
+  </head>
+  <body>
+    <header>
+      <div class="container nav">
+        <div class="brand">SDM Portfolio</div>
+        <nav>
+          <a href="/index.html">Главная</a>
+          <a href="/projects.html">Портфолио</a>
+          <a href="/about.html">Обо мне</a>
+        </nav>
+        <button id="theme-toggle" class="icon-btn" aria-label="Сменить тему">Светлая</button>
+      </div>
+    </header>
+    <main class="container">
+      <!-- Hero секция -->
+      <section class="hero card">
+        <h1>Привет! Я <span class="accent-text">Даниил Славный</span></h1>
+        <p class="hero-subtitle">Студент 4 курса РГПУ им. А.И. Герцена</p>
+        <p class="muted">Направление: "Разработка программного обеспечения"</p>
+        <p class="hero-description">Начинающий backend-разработчик, изучаю Python, Node.js, Express.js, Docker, REST API и работу с базами данных. Создаю серверные приложения и развиваюсь в области backend-разработки.</p>
+        <div class="hero-actions">
+          <a href="/projects.html"><button>Портфолио</button></a>
+          <a href="/about.html"><button class="btn-secondary">Обо мне</button></a>
+        </div>
+      </section>
+
+      <!-- Навыки - краткий обзор -->
+      <section class="skills-preview">
+        <h2>Основные навыки</h2>
+        <div class="skills-grid">
+          <div class="skill-badge">
+            <span>Python</span>
+          </div>
+          <div class="skill-badge">
+            <span>Node.js</span>
+          </div>
+          <div class="skill-badge">
+            <span>Express.js</span>
+          </div>
+          <div class="skill-badge">
+            <span>JavaScript</span>
+          </div>
+          <div class="skill-badge">
+            <span>Docker</span>
+          </div>
+          <div class="skill-badge">
+            <span>REST API</span>
+          </div>
+          <div class="skill-badge">
+            <span>PostgreSQL</span>
+          </div>
+          <div class="skill-badge">
+            <span>MongoDB</span>
+          </div>
+          <div class="skill-badge">
+            <span>Git</span>
+          </div>
+        </div>
+        <p style="text-align: center; margin-top: 16px;">
+          <a href="/about.html" class="muted">Подробнее о навыках →</a>
+        </p>
+      </section>
+
+      <!-- Превью портфолио -->
+      <section class="projects-preview">
+        <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 20px;">
+          <h2>Портфолио</h2>
+          <a href="/projects.html" class="muted">Все дисциплины →</a>
+        </div>
+        <div class="grid">
+          <article class="card project-card">
+            <h3>Курсовые работы</h3>
+            <p class="muted">3 работы · Google Drive</p>
+            <p style="margin-top: 8px; font-size: 0.9em;">Материалы и отчёты в Google Drive</p>
+            <div style="margin-top: 12px;">
+              <span class="tag">#курсовый</span>
+              <span class="tag">#учёба</span>
+            </div>
+            <div style="margin-top: 12px;">
+              <a href="/projects.html" class="project-link">Подробнее →</a>
+            </div>
+          </article>
+          <article class="card project-card">
+            <h3>Практики</h3>
+            <p class="muted">4 работы · Google Drive</p>
+            <p style="margin-top: 8px; font-size: 0.9em;">Учебная и производственная практики</p>
+            <div style="margin-top: 12px;">
+              <span class="tag">#практики</span>
+              <span class="tag">#учёба</span>
+            </div>
+            <div style="margin-top: 12px;">
+              <a href="/projects.html" class="project-link">Подробнее →</a>
+            </div>
+          </article>
+          <article class="card project-card">
+            <h3>Государственная итоговая аттестация</h3>
+            <p class="muted">Скоро будет</p>
+            <p style="margin-top: 8px; font-size: 0.9em;">Раздел появится после сдачи</p>
+            <div style="margin-top: 12px;">
+              <span class="tag">#гос</span>
+              <span class="tag">#учёба</span>
+            </div>
+            <div style="margin-top: 12px;">
+              <a href="/projects.html" class="project-link">Подробнее →</a>
+            </div>
+          </article>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="container">© 2026 SDM Portfolio</div>
+    </footer>
+    <script src="/assets/js/main.js" defer></script>
+  </body>
+  </html>
